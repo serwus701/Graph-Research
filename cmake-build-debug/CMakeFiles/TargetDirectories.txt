@@ -1,0 +1,3 @@
+C:/kod/CLionProjects/SDIZO/Proj2/cmake-build-debug/CMakeFiles/Proj2.dir
+C:/kod/CLionProjects/SDIZO/Proj2/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/kod/CLionProjects/SDIZO/Proj2/cmake-build-debug/CMakeFiles/rebuild_cache.dir

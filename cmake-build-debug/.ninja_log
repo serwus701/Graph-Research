@@ -1,0 +1,6 @@
+# ninja log v5
+3	1027	6757946429330246	CMakeFiles/Proj2.dir/Graph/Graph.cpp.obj	a1643c039721bc5b
+3	687	6757946589902473	CMakeFiles/Proj2.dir/main.cpp.obj	cad53a194300420a
+687	905	6757946592026794	Proj2.exe	e4e1051da28fa071
+99	777	6757893117819905	CMakeFiles/Proj2.dir/Graph/Node.cpp.obj	4d3062573dd4837b
+83	1437	6757893124332509	CMakeFiles/Proj2.dir/FileManagement.cpp.obj	10936e90e0514f0f
