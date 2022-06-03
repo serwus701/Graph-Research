@@ -6,19 +6,23 @@
 #define PROJ2_GRAPH_H
 
 
-class Graph {
+class MatrixGraph {
     int size;
     int **tabPointer;
 
 
 public:
-    Graph();
+    MatrixGraph();
 
     void addNode();
 
     void show();
 
     void addEdge(int ,int, int);
+
+    int getSize();
+
+    int ** getTabPointer();
 
 };
 

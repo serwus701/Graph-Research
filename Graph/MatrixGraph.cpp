@@ -3,9 +3,9 @@
 //
 
 #include <iostream>
-#include "Graph.h"
+#include "MatrixGraph.h"
 
-void Graph::addNode() {
+void MatrixGraph::addNode() {
     int **newTab = new int *[size + 1];
     int **toDelete = tabPointer;
 
@@ -32,7 +32,7 @@ void Graph::addNode() {
     delete toDelete;
 }
 
-void Graph::show() {
+void MatrixGraph::show() {
     for (int i = 0; i < size; ++i) {
         for (int j = 0; j < size; ++j) {
             std::cout<<tabPointer[i][j] << " ";
@@ -41,13 +41,22 @@ void Graph::show() {
     }
 }
 
-Graph::Graph() {
+MatrixGraph::MatrixGraph() {
     size = 0;
     tabPointer = nullptr;
 }
 
-void Graph::addEdge(int from, int to, int cost) {
+void MatrixGraph::addEdge(int from, int to, int cost) {
     if(from < size && to < size){
         tabPointer[from][to] = cost;
+        tabPointer[to][from] = cost;//?????????????????
     }
+}
+
+int MatrixGraph::getSize() {
+    return size;
+}
+
+int **MatrixGraph::getTabPointer() {
+    return tabPointer;
 }

@@ -61,17 +61,41 @@ build CMakeFiles/Proj2.dir/FileManagement.cpp.obj: CXX_COMPILER__Proj2_Debug C$:
   OBJECT_DIR = CMakeFiles\Proj2.dir
   OBJECT_FILE_DIR = CMakeFiles\Proj2.dir
 
-build CMakeFiles/Proj2.dir/Graph/Graph.cpp.obj: CXX_COMPILER__Proj2_Debug C$:/kod/CLionProjects/SDIZO/Proj2/Graph/Graph.cpp || cmake_object_order_depends_target_Proj2
-  DEP_FILE = CMakeFiles\Proj2.dir\Graph\Graph.cpp.obj.d
+build CMakeFiles/Proj2.dir/Graph/MatrixGraph.cpp.obj: CXX_COMPILER__Proj2_Debug C$:/kod/CLionProjects/SDIZO/Proj2/Graph/MatrixGraph.cpp || cmake_object_order_depends_target_Proj2
+  DEP_FILE = CMakeFiles\Proj2.dir\Graph\MatrixGraph.cpp.obj.d
   FLAGS = -g -std=gnu++2a
   OBJECT_DIR = CMakeFiles\Proj2.dir
   OBJECT_FILE_DIR = CMakeFiles\Proj2.dir\Graph
 
-build CMakeFiles/Proj2.dir/PrimMST.cpp.obj: CXX_COMPILER__Proj2_Debug C$:/kod/CLionProjects/SDIZO/Proj2/PrimMST.cpp || cmake_object_order_depends_target_Proj2
-  DEP_FILE = CMakeFiles\Proj2.dir\PrimMST.cpp.obj.d
+build CMakeFiles/Proj2.dir/Algorithms.cpp.obj: CXX_COMPILER__Proj2_Debug C$:/kod/CLionProjects/SDIZO/Proj2/Algorithms.cpp || cmake_object_order_depends_target_Proj2
+  DEP_FILE = CMakeFiles\Proj2.dir\Algorithms.cpp.obj.d
   FLAGS = -g -std=gnu++2a
   OBJECT_DIR = CMakeFiles\Proj2.dir
   OBJECT_FILE_DIR = CMakeFiles\Proj2.dir
+
+build CMakeFiles/Proj2.dir/Array/MyArrayEdge.cpp.obj: CXX_COMPILER__Proj2_Debug C$:/kod/CLionProjects/SDIZO/Proj2/Array/MyArrayEdge.cpp || cmake_object_order_depends_target_Proj2
+  DEP_FILE = CMakeFiles\Proj2.dir\Array\MyArrayEdge.cpp.obj.d
+  FLAGS = -g -std=gnu++2a
+  OBJECT_DIR = CMakeFiles\Proj2.dir
+  OBJECT_FILE_DIR = CMakeFiles\Proj2.dir\Array
+
+build CMakeFiles/Proj2.dir/BinaryHeap/MyBinaryHeapEdge.cpp.obj: CXX_COMPILER__Proj2_Debug C$:/kod/CLionProjects/SDIZO/Proj2/BinaryHeap/MyBinaryHeapEdge.cpp || cmake_object_order_depends_target_Proj2
+  DEP_FILE = CMakeFiles\Proj2.dir\BinaryHeap\MyBinaryHeapEdge.cpp.obj.d
+  FLAGS = -g -std=gnu++2a
+  OBJECT_DIR = CMakeFiles\Proj2.dir
+  OBJECT_FILE_DIR = CMakeFiles\Proj2.dir\BinaryHeap
+
+build CMakeFiles/Proj2.dir/Graph/ListGraph.cpp.obj: CXX_COMPILER__Proj2_Debug C$:/kod/CLionProjects/SDIZO/Proj2/Graph/ListGraph.cpp || cmake_object_order_depends_target_Proj2
+  DEP_FILE = CMakeFiles\Proj2.dir\Graph\ListGraph.cpp.obj.d
+  FLAGS = -g -std=gnu++2a
+  OBJECT_DIR = CMakeFiles\Proj2.dir
+  OBJECT_FILE_DIR = CMakeFiles\Proj2.dir\Graph
+
+build CMakeFiles/Proj2.dir/Array/MyArray.cpp.obj: CXX_COMPILER__Proj2_Debug C$:/kod/CLionProjects/SDIZO/Proj2/Array/MyArray.cpp || cmake_object_order_depends_target_Proj2
+  DEP_FILE = CMakeFiles\Proj2.dir\Array\MyArray.cpp.obj.d
+  FLAGS = -g -std=gnu++2a
+  OBJECT_DIR = CMakeFiles\Proj2.dir
+  OBJECT_FILE_DIR = CMakeFiles\Proj2.dir\Array
 
 
 # =============================================================================
@@ -81,7 +105,7 @@ build CMakeFiles/Proj2.dir/PrimMST.cpp.obj: CXX_COMPILER__Proj2_Debug C$:/kod/CL
 #############################################
 # Link the executable Proj2.exe
 
-build Proj2.exe: CXX_EXECUTABLE_LINKER__Proj2_Debug CMakeFiles/Proj2.dir/main.cpp.obj CMakeFiles/Proj2.dir/FileManagement.cpp.obj CMakeFiles/Proj2.dir/Graph/Graph.cpp.obj CMakeFiles/Proj2.dir/PrimMST.cpp.obj
+build Proj2.exe: CXX_EXECUTABLE_LINKER__Proj2_Debug CMakeFiles/Proj2.dir/main.cpp.obj CMakeFiles/Proj2.dir/FileManagement.cpp.obj CMakeFiles/Proj2.dir/Graph/MatrixGraph.cpp.obj CMakeFiles/Proj2.dir/Algorithms.cpp.obj CMakeFiles/Proj2.dir/Array/MyArrayEdge.cpp.obj CMakeFiles/Proj2.dir/BinaryHeap/MyBinaryHeapEdge.cpp.obj CMakeFiles/Proj2.dir/Graph/ListGraph.cpp.obj CMakeFiles/Proj2.dir/Array/MyArray.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\Proj2.dir

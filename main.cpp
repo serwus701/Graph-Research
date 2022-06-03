@@ -1,15 +1,19 @@
 #include <iostream>
-#include "Graph/Graph.h"
+#include "BinaryHeap/MyBinaryHeapEdge.h"
+#include "Graph/MatrixGraph.h"
+#include "Algorithms.h"
 
 int main() {
-    Graph * temp = new Graph();
+    MatrixGraph * graph = new MatrixGraph();
 
-    temp->addNode();
-    temp->addNode();
-    temp->addNode();
-    temp->addNode();
 
-    temp->addEdge(0, 2, 5);
+    MyArrayEdge * listaKrawedzi = new MyArrayEdge();
+    listaKrawedzi->addFront(Edge(0, 2, 1));
+    //listaKrawedzi->addFront(Edge(0, 3, 1));
+    //listaKrawedzi->addFront(Edge(2, 3, 1));
+    //listaKrawedzi->addFront(Edge(1, 3, 1));
 
-    temp->show();
+    std::cout<<std::endl<<(new Algorithms())->doesMakeCycle(listaKrawedzi, Edge(0, 1, 1))<<std::endl;
+
+
 }
